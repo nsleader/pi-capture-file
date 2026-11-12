@@ -1,0 +1,11 @@
+{
+  "name": "pi-capture-file",
+  "version": "1.0.0",
+  "description": "Pi extension: rescue ephemeral macOS screenshot drag-and-drop files and fix NBSP screenshot paths at paste time",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension", "macos", "screenshot", "clipboard"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./capture-pasted-files.ts"]
+  }
+}
